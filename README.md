@@ -1,0 +1,4 @@
+# PHP Type Juggling Bug
+This repository demonstrates a common yet subtle bug in PHP related to type juggling when working with arrays and arithmetic operations.  The `bug.php` file contains a function that calculates the average of an array.  However, this function doesn't handle non-numeric values gracefully, leading to warnings and potential calculation errors.
+The `bugSolution.php` provides a corrected version of the function which safely handles various input types.
+This example highlights the importance of strict type checking and robust error handling in PHP to prevent unexpected behavior and ensure the accuracy of your calculations.
